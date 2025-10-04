@@ -5,6 +5,8 @@ import json
 import os
 from VoiceRecognition import VoiceRecognition
 from chat_email import send_email
+import sys
+import importlib
 
 st.set_page_config(
     page_title="Womby",
@@ -30,19 +32,8 @@ def add_message_without_rerun(role, content):
 # Create an OpenAI client.
 client = OpenAI(api_key=st.secrets["API_KEY"])
 
-# Obtenemos los nombres de los archivos de los prompts
-prompt_files = os.listdir(PROMPTS_PATH)
-
 # Cargar el contenido de los prompts y mostrarlo en la barra lateral
 with st.sidebar:
-    prompt_choice = st.selectbox("Selecciona un prompt inicial", prompt_files, index=0)
-
-    # Abrir el archivo con codificación UTF-8
-    with open(
-        os.path.join(PROMPTS_PATH, prompt_choice), "r", encoding="utf-8"
-    ) as prompt_file:
-        instructions_prompt: str = prompt_file.read()
-
     # Cargar JSON de los niveles, unidades y preguntas
     with open(COURSES_INFO_PATH, "r", encoding="utf-8") as courses_info_file:
         cursos_data = json.load(courses_info_file)
@@ -50,6 +41,19 @@ with st.sidebar:
     # Selector de nivel
     niveles = list(cursos_data.keys())
     nivel = st.selectbox("Selecciona tu nivel de inglés", niveles)
+
+    # Construir el nombre del archivo del prompt basado en el nivel
+    prompt_filename = f"prompt_{nivel}.py"
+    prompt_path = os.path.join(PROMPTS_PATH, prompt_filename)
+    
+    # Cargar el módulo dinámicamente usando importlib
+    spec = importlib.util.spec_from_file_location(f"prompt_{nivel}", prompt_path)
+    prompt_module = importlib.util.module_from_spec(spec)
+    sys.modules[f"prompt_{nivel}"] = prompt_module
+    spec.loader.exec_module(prompt_module)
+
+    # Obtener la variable PROMPT del módulo
+    instructions_prompt: str = prompt_module.PROMPT
 
     # Filtrar las unidades según el nivel seleccionado
     unidades = list(cursos_data[nivel].keys())
