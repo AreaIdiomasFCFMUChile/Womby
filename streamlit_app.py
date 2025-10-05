@@ -106,16 +106,17 @@ with st.sidebar:
         except Exception as e:
             st.error(f"Error al enviar el correo: {e}")
 
-    if st.button("Vocabulario de la unidad"):
-        st.session_state.mostrar_vocabulario = not st.session_state.mostrar_vocabulario
+    if nivel == "4204" :
+        if st.button("Vocabulario de la unidad"):
+            st.session_state.mostrar_vocabulario = not st.session_state.mostrar_vocabulario
 
-    if st.session_state.mostrar_vocabulario:
-        # Convertir el string en lista
-        vocabulario = [palabra.strip() for palabra in vocabulario.split(" / ")]
-        
-        st.subheader(f"📚 Vocabulario de {unidad} ({nivel})")
-        for palabra in vocabulario:
-            st.write(f"- {palabra}")
+        if st.session_state.mostrar_vocabulario:
+            # Convertir el string en lista
+            vocabulario = [palabra.strip() for palabra in vocabulario.split(" / ")]
+            
+            st.subheader(f"📚 Vocabulario de {unidad} ({nivel})")
+            for palabra in vocabulario:
+                st.write(f"- {palabra}")
 
 # Concatenar el prompt inicial con la pregunta seleccionada
 prompt_context = f"{instructions_prompt.strip()}\n\n"
