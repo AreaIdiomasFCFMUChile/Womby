@@ -33,6 +33,9 @@ def add_message_without_rerun(role, content):
 client = OpenAI(api_key=st.secrets["API_KEY"])
 
 # Cargar el contenido de los prompts y mostrarlo en la barra lateral
+if "mostrar_vocabulario" not in st.session_state:
+    st.session_state.mostrar_vocabulario = False
+
 with st.sidebar:
     # Cargar JSON de los niveles, unidades y preguntas
     with open(COURSES_INFO_PATH, "r", encoding="utf-8") as courses_info_file:
@@ -102,6 +105,17 @@ with st.sidebar:
             st.success("Correo enviado exitosamente!")
         except Exception as e:
             st.error(f"Error al enviar el correo: {e}")
+
+    if st.button("Vocabulario de la unidad"):
+        st.session_state.mostrar_vocabulario = not st.session_state.mostrar_vocabulario
+
+    if st.session_state.mostrar_vocabulario:
+        # Convertir el string en lista
+        vocabulario = [palabra.strip() for palabra in vocabulario.split(" / ")]
+        
+        st.subheader(f"📚 Vocabulario de {unidad} ({nivel})")
+        for palabra in vocabulario:
+            st.write(f"- {palabra}")
 
 # Concatenar el prompt inicial con la pregunta seleccionada
 prompt_context = f"{instructions_prompt.strip()}\n\n"
