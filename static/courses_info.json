@@ -1,4 +1,54 @@
 {
+    "4204": {
+        "1/2A": {
+            "questions": [
+                "How would you classify Chilean people, as savers or spenders? Why?",
+                "Have you ever invested your money in business? If not, would you like to do it? Why? Why not?",
+                "If you were a millionaire, what would you do with your money? Would you save or spend it? Would you work or set up your own company?"
+            ],
+            "vocabulary": "ATM / bargain / to be/get in debt / to be worth / bill / borrow / budget / can/could afford / to charge / cheap / coin / to earn / fee / to figure out / in cash / to inherit / installment / to invest / to live off / to live on / loan / mortgage / on credit / to owe / to own / to put aside / to raise money / real estate / salary / to save money / saver / to spend / spender / tax / to waste"
+        },
+        "2/2B": {
+            "questions": [
+                "Do you think governments should spend some money to help foundations such as Teletón? Why? How would the lives of these children change?",
+                "Have you ever thought about how your life would be after finishing your study program?",
+                "If you had a time machine and you could travel to the past, would you change anything?"
+            ],
+            "vocabulary": "to break down / challenge / charity / donation / for ages / foundation / gadget / to give more than you get / headmaster / to improve / life-changing experience / NGO / nonprofit / principal / to raise money / recently / to sponsor / volunteer / to volunteer / vulnerable"
+        },
+        "3/6A": {
+            "questions": [
+                "What do you think of Chilean movies? Are they good enough to pay for seeing them at cinemas?",
+                "What has been the best biopic you have ever seen? Why?",
+                "If you made a movie based on your life, would people watch it? What would the plot be about?"
+            ],
+            "vocabulary": "animated / audience / to be on / to be set / cast / comedy / crew / drama / to dub / exciting / extra / funny / genre / historical / horror / to inhabit / moving / musical / on location / plot / review / role / scary / scene / script / sequel / to shoot / science fiction / soundtrack / special effects / to star / subtitle / success / thriller / violent / war / western"
+        },
+        "4/7A": {
+            "questions": [
+                "Should education be free of charge? Why? Why not?",
+                "Has education in Chile improved or gotten worse in the last twenty years?",
+                "If you were the minister of education, what changes would you make to public education?"
+            ],
+            "vocabulary": "to apply / appointment / to be in charge of / to be suspended / to behave / behavior / boarding school / to bring up / to cheat / classmate / college / delighted / degree / determined / to do something on your own / to do well / elementary / to encourage / to excel / to fail / to figure out / forbidden / to give up / grade / to hand in / mark / nursery / outstanding / parenting / to pass / preschool / primary / prodigy / to punish / pupil / pushy / quarter / to rebel / to resent / secondary / semester / to succeed / to take on / to take time off / to take up / to turn into / upbringing / whether / to wonder"
+        },
+        "5/8A": {
+            "questions": [
+                "Do you like shopping online? Why?",
+                "What major challenges have you encountered while shopping online?",
+                "If you had an online store and made a mistake, what kind of compensation would you give your clients?"
+            ],
+            "vocabulary": "achieve / achievement / attach / attachment / bargain / to be fond of / can’t stand / cheat / compensate / compensation / complain / complaint / consumer / countless / deal / to demonstrate / demonstration / department store / departure / to drop / drugstore / to dump / engagement / to exchange / faulty / to fit / flattery / for sale / to go shopping / to hesitate / hopeless / to lose one’s temper / loss / loyal / manager / to move on / on sale / outlet store / payment / pharmacy / price / to put / sale / salesperson / to sell / something on / receipt / refund / to refund / to set up / to shop / size / to spoil / street market / suit / to suit / survey / to swear / tag / to threaten / to try on / to waste"
+        },
+        "6/8B": {
+            "questions": [
+                "Do you think that Chilean people should work less than eight hours a day? Why?",
+                "Have you ever had to work/study overtime? How did you cope?",
+                "What would your life be like if you decided to work in a first world country?"
+            ],
+            "vocabulary": "advertisement / application / to apply for / to be in charge of / to be responsible for / boss / charismatic / curriculum vitae / degree / device / to downsize / dreaded / to earn / empty-handed / enthusiastic / entrepreneur / to fire / full-time / to give up / to improvise / instinct / intimidating / investment / investor / job / to look for / market / to mind / part-time / performance / principle / profit / profitable / to promote / promotion / qualification / to reject / to resign / résumé / to retire / retirement / risk / salary / self-employed / to sense / to set up / share / temporary / theoretical / unemployed / well qualified / work / to work overtime"
+        }
+    },
     "4205": {
         "1/5A": {
             "questions": [
