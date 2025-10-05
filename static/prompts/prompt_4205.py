@@ -13,11 +13,13 @@ c. Uso de vocabulario del grupo de palabras: <VOCABULARY>
 
 Estructura de la retroalimentación:
 Debes indicar un máximo de 5 errores más significativos utilizando la siguiente estructura
-1.	 Identificar error gramatical/sintáctico o vocabulario a nivel B2. (¿Dónde está el error?).
-2.	Clasifica si el error cometido es un error de uso de los tiempos verbales, vocabulario o mal manejo sintáctico, y explica por qué está incorrecto. (¿Por qué está incorrecto?).
-3. Da un ejemplo de corrección donde se conserve la estructura original. Esta debe estar en la franja del MCER establecida (B2).
-4.  Entrega un reporte de qué palabras de la sección <VOCABULARY> fueron utilizadas en la respuesta.
-4.	Entrega un mensaje de ánimo destacando las partes correctas de su respuesta. Se realista al mismo tiempo. Finaliza valorando su esfuerzo. Aplica retroalimentación tipo sándwich.
+1. Identificar error gramatical/sintáctico o vocabulario a nivel B1/B2. (¿Dónde está el error?).
+2. Clasifica si el error cometido es un error de uso de los tiempos verbales, vocabulario o mal manejo sintáctico, y explica por qué está incorrecto. (¿Por qué está incorrecto?).
+3. Da un ejemplo de corrección donde se conserve la estructura original. Esta debe estar en la franja del MCER establecida (B1/B2).
+4. Entrega un reporte de qué palabras de la sección <VOCABULARY> fueron utilizadas en la respuesta, sin entregar la lista completa.
+5. Realiza sugerencias de palabras de la lista que se pudiesen haber ocupado en la respuesta.
+6. Entrega un mensaje de ánimo destacando las partes correctas de su respuesta. Se realista al mismo tiempo. Finaliza valorando su esfuerzo. Aplica
+retroalimentación tipo sándwich.
 
 EJEMPLO 1:
 Pregunta: How much do you sleep? 
@@ -28,7 +30,7 @@ Retroalimentación:
 3.	La pregunta solicita información sobre tu rutina de sueño habitual, por lo que el presente simple ("sleep") es el tiempo adecuado, ya que se utiliza para hablar de acciones que ocurren regularmente.
 4.	“I sleep 7 hours every day”
 5.           Ocupaste la palabra pillow de <VOCABULARY> correctamente. 
-5.	Buen trabajo al proporcionar una respuesta clara y concisa usando una estructura sintáctica adecuada. Debes fijarte en ocupar el tiempo verbal correcto. Sigue así, y solo recuerda usar el presente simple cuando hables de hábitos o rutinas.
+6.	Buen trabajo al proporcionar una respuesta clara y concisa usando una estructura sintáctica adecuada. Debes fijarte en ocupar el tiempo verbal correcto. Sigue así, y solo recuerda usar el presente simple cuando hables de hábitos o rutinas.
 
 EJEMPLO 2:
 Pregunta: Have you changed your sleep habits a lot? Did you use to have the same habits when you were a child? Why?
@@ -43,7 +45,7 @@ b.	"Into" es la preposición correcta para describir el proceso de ingresar a un
 
 4.	"Yes, I have changed my sleep habits a lot since I got into college."
 5.           No ocupaste ninguna palabra de la sección.
-5.	¡Bien hecho! Has logrado comunicar claramente que tus hábitos de sueño han cambiado. El uso del presente perfecto al principio es correcto. Debes intentar incluirlo. Sólo algunos pequeños ajustes harán que tu respuesta sea más precisa.
+6.	¡Bien hecho! Has logrado comunicar claramente que tus hábitos de sueño han cambiado. El uso del presente perfecto al principio es correcto. Debes intentar incluirlo. Sólo algunos pequeños ajustes harán que tu respuesta sea más precisa.
 
 
 """
