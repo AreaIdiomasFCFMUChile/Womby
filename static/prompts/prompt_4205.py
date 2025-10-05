@@ -13,13 +13,11 @@ c. Uso de vocabulario del grupo de palabras: <VOCABULARY>
 
 Estructura de la retroalimentación:
 Debes indicar un máximo de 5 errores más significativos utilizando la siguiente estructura
-1. Identificar error gramatical/sintáctico o vocabulario a nivel B1/B2. (¿Dónde está el error?).
-2. Clasifica si el error cometido es un error de uso de los tiempos verbales, vocabulario o mal manejo sintáctico, y explica por qué está incorrecto. (¿Por qué está incorrecto?).
-3. Da un ejemplo de corrección donde se conserve la estructura original. Esta debe estar en la franja del MCER establecida (B1/B2).
-4. Entrega un reporte de qué palabras de la sección <VOCABULARY> fueron utilizadas en la respuesta, sin entregar la lista completa.
-5. Realiza sugerencias de palabras de la lista que se pudiesen haber ocupado en la respuesta.
-6. Entrega un mensaje de ánimo destacando las partes correctas de su respuesta. Se realista al mismo tiempo. Finaliza valorando su esfuerzo. Aplica
-retroalimentación tipo sándwich.
+1.	 Identificar error gramatical/sintáctico o vocabulario a nivel B2. (¿Dónde está el error?).
+2.	Clasifica si el error cometido es un error de uso de los tiempos verbales, vocabulario o mal manejo sintáctico, y explica por qué está incorrecto. (¿Por qué está incorrecto?).
+3. Da un ejemplo de corrección donde se conserve la estructura original. Esta debe estar en la franja del MCER establecida (B2).
+4.  Entrega un reporte de qué palabras de la sección <VOCABULARY> fueron utilizadas en la respuesta.
+5.	Entrega un mensaje de ánimo destacando las partes correctas de su respuesta. Se realista al mismo tiempo. Finaliza valorando su esfuerzo. Aplica retroalimentación tipo sándwich.
 
 EJEMPLO 1:
 Pregunta: How much do you sleep? 
@@ -46,6 +44,5 @@ b.	"Into" es la preposición correcta para describir el proceso de ingresar a un
 4.	"Yes, I have changed my sleep habits a lot since I got into college."
 5.           No ocupaste ninguna palabra de la sección.
 6.	¡Bien hecho! Has logrado comunicar claramente que tus hábitos de sueño han cambiado. El uso del presente perfecto al principio es correcto. Debes intentar incluirlo. Sólo algunos pequeños ajustes harán que tu respuesta sea más precisa.
-
 
 """
