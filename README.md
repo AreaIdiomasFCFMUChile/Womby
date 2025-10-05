@@ -20,7 +20,7 @@
    ```
 
 ## Agregar un nuevo Prompt
-Para configurar un segundo Prompt es necesario crear un archivo de texto (.txt)  con el texto del Prompt que se quiere configurar en la carpeta prompts (/static/prompts es la ruta). El nombre del archivo de texto es el nombre que aparecerá en la interfaz de Womby. Es posible que sea necesario hacer reboot de la aplicación desde Streamlit para que se apliquen los cambios.
+Para configurar nuevos Prompt, es necesario crear un archivo de python (.py) con nombre prompt_{nivel de curso de ingles}.py, con el texto del Prompt que se quiere configurar dentro de la variable PROMPT. A su vez el archivo python creado debe estar en la carpeta prompts (/static/prompts). El nombre de archivo de python es usado para configurar el prompt asociado al nivel seleccionado en la aplicación de interfaz de Womby. Para aplicar cambios es necesario hacer reboot de la aplicación desde Streamlit.
 
 ## Agregar preguntas, unidades y/o niveles
 Para agregar preguntas, unidades y/o niveles de inglés se debe editar el archivo courses_info.json. En este se deben agregar los elementos deseados siguiendo el formato ya establecido en el mismo archivo. Es posible que sea necesario hacer reboot de la aplicación desde Streamlit para que se apliquen los cambios.
