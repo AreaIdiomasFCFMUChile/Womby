@@ -171,9 +171,13 @@ audio_input, text_input, send_answer = st.columns([0.8, 4, 0.6])
 
 with audio_input:
     # Entrada de audio
-    st.session_state.voice_response = st.experimental_audio_input(
-        "Voice input", label_visibility="collapsed"
-    )
+    try:
+        st.session_state.voice_response = st.experimental_audio_input(
+            "Voice input", label_visibility="collapsed"
+        )
+    except:
+        st.error(f"Error al recibir entrada de audio")
+
 
 with text_input:
     # Si hay respuesta de voz, se muestra la transcripción
@@ -181,10 +185,13 @@ with text_input:
         # Solo transcribir si no se ha transcrito este audio antes
         if 'last_audio_timestamp' not in st.session_state or st.session_state.voice_response != st.session_state.last_audio:
             transcriptor = VoiceRecognition()
-            st.session_state.transcription = transcriptor.to_text(
-                st.session_state.voice_response, client
-            )
-            st.session_state.last_audio = st.session_state.voice_response
+            try:
+                st.session_state.transcription = transcriptor.to_text(
+                    st.session_state.voice_response, client
+                )
+                st.session_state.last_audio = st.session_state.voice_response
+            except:
+                st.error(f"Error al transcribir audio")
 
     user_input = st.text_area(
         label="Text input",
